@@ -156,13 +156,13 @@ const filePatterns: FilePatternsType = [
     status: StrategyRunnerOutputStatusEnum.Critical,
   },
   {
-    pattern: /\.(tmp|temp))$/i,
+    pattern: /\.(tmp|temp)$/i,
     type: FileTypeEnum.File,
     description: 'Any temp files should be removed in production.',
     status: StrategyRunnerOutputStatusEnum.Critical,
   },
   {
-    pattern: /\.(ts|tsx))$/i,
+    pattern: /\.(ts|tsx)$/i,
     type: FileTypeEnum.File,
     description: 'Any ts files should be removed in production.',
     status: StrategyRunnerOutputStatusEnum.Low,

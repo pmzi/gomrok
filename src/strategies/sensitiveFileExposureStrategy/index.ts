@@ -27,7 +27,7 @@ function checkForFileExposure(src: string): StrategyOutput {
       ) {
         if (pattern.test(fileName)) {
           result.push({
-            name: fileName,
+            name: fullFilePath,
             description,
             status,
           });

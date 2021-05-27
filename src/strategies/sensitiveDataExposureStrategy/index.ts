@@ -30,7 +30,7 @@ function checkForDataExposure(src: string): StrategyOutput {
           const [dataExposed] = pattern.exec(fileContent) as RegExpExecArray;
           if (pattern.test(fileContent)) {
             result.push({
-              name: fileName,
+              name: fullFilePath,
               description: description(dataExposed),
               status,
             });

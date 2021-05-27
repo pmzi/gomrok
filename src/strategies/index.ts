@@ -1,6 +1,7 @@
 import { StrategyOutput, IStrategy } from './shared/types';
 
 import sourceMapStrategy from './sourceMapStrategy';
+import sensitiveFileExposureStrategy from './sensitiveFileExposureStrategy';
 
 interface StrategyResult {
   [index: string]: StrategyOutput
@@ -13,6 +14,7 @@ interface IStrategyMap {
 
 const strategyNameMap: IStrategyMap = {
   [sourceMapStrategy.name]: sourceMapStrategy,
+  [sensitiveFileExposureStrategy.name]: sensitiveFileExposureStrategy,
 };
 
 export default async function strategyRunner({ src }: { src: string; }): StrategyRunnerOutput {

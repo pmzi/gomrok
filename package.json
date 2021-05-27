@@ -1,5 +1,5 @@
 {
-  "name": "1984",
+  "name": "jongun",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pmzi/1984.git"
+    "url": "git+https://github.com/pmzi/jongun.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pmzi/1984/issues"
+    "url": "https://github.com/pmzi/jongun/issues"
   },
-  "homepage": "https://github.com/pmzi/1984#readme",
+  "homepage": "https://github.com/pmzi/jongun#readme",
   "devDependencies": {
     "@types/node": "^15.6.1",
     "@types/yargs": "^17.0.0",

@@ -4,11 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepublishOnly": "npm run build",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pmzi/jongun.git"
+  },
+  "bin": {
+    "jongun": "./dist/index.js"
   },
   "author": "",
   "license": "ISC",

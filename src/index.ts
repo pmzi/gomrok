@@ -1,3 +1,4 @@
+import { StrategyResult } from './shared/types';
 import strategyRunner from './strategies';
 
 interface IEntry {
@@ -6,6 +7,6 @@ interface IEntry {
 
 export default async function analyze({
   src,
-}: IEntry): Promise<void> {
-  console.log(await strategyRunner({ src }));
+}: IEntry): Promise<StrategyResult> {
+  return strategyRunner({ src });
 }

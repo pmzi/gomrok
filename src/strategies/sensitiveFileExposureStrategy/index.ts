@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import { IStrategy, StrategyOutput } from '../shared/types';
+import { IStrategy, StrategyOutput } from '../../shared/types';
 import { FileTypeEnum } from './shared/types';
 
 import filePatterns from './filePatterns';

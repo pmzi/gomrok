@@ -17,3 +17,7 @@ export interface IStrategy {
   name: string;
   description: string;
 }
+
+export interface StrategyResult {
+  [index: string]: StrategyOutput
+}

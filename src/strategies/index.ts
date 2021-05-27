@@ -1,12 +1,9 @@
-import { StrategyOutput, IStrategy } from './shared/types';
+import { IStrategy, StrategyResult } from '../shared/types';
 
 import sourceMapStrategy from './sourceMapStrategy';
 import sensitiveFileExposureStrategy from './sensitiveFileExposureStrategy';
 import sensitiveDataExposureStrategy from './sensitiveDataExposureStrategy';
 
-interface StrategyResult {
-  [index: string]: StrategyOutput
-}
 type StrategyRunnerOutput = Promise<StrategyResult>
 
 interface IStrategyMap {

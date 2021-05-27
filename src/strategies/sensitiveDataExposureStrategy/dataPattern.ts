@@ -1,4 +1,4 @@
-import { StrategyRunnerOutputStatusEnum } from '../shared/types';
+import { StrategyRunnerOutputStatusEnum } from '../../shared/types';
 
 interface IDataPattern {
   pattern: RegExp;

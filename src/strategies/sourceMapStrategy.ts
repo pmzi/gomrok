@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import { IStrategy, StrategyRunnerOutputStatusEnum, StrategyOutput } from './shared/types';
+import { IStrategy, StrategyRunnerOutputStatusEnum, StrategyOutput } from '../shared/types';
 
 const sourceMapFileNameReg = /\.map$/i;
 

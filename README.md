@@ -25,5 +25,9 @@ $ npm i -g jongun
 ## Usage
 
 ```
-# jongun -p ./path/to/be/served
+$ jongun -p ./path/to/be/served
 ```
+
+Example output:
+
+![Output example](https://user-images.githubusercontent.com/11475858/119897526-c600d200-bf55-11eb-9b9a-6acb6ecb5c79.png)

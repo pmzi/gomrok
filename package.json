@@ -1,5 +1,5 @@
 {
-  "name": "jongun",
+  "name": "gomrok",
   "version": "1.0.2",
   "description": "",
   "main": "index.js",
@@ -9,17 +9,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pmzi/jongun.git"
+    "url": "git+https://github.com/pmzi/gomrok.git"
   },
   "bin": {
-    "jongun": "./dist/index.js"
+    "gomrok": "./dist/index.js"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pmzi/jongun/issues"
+    "url": "https://github.com/pmzi/gomrok/issues"
   },
-  "homepage": "https://github.com/pmzi/jongun#readme",
+  "homepage": "https://github.com/pmzi/gomrok#readme",
   "devDependencies": {
     "@types/node": "^15.6.1",
     "@types/yargs": "^17.0.0",

@@ -24,7 +24,7 @@ export default async function strategyRunner({ src }: { src: string; }): Strateg
   for (const strategy of strategies) {
     const strResult = await strategy.run({ src });
 
-    result[strategy.name] = strResult;
+    if (strResult.length) { result[strategy.name] = strResult; }
   }
 
   return result;

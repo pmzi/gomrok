@@ -23,7 +23,7 @@ const { argv } = yargs
 const { path, table: isTable } = argv as { path: string, table: boolean };
 
 safetyChecker({ src: path }).then((result) => {
-  if (result) {
+  if (Object.keys(result).length) {
     doExport({ isTable, result });
     process.exit(-1);
   } else {

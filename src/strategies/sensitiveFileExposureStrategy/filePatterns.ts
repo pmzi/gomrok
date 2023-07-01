@@ -209,6 +209,12 @@ const filePatterns: FilePatternsType = [
     description: 'Any source code file (e.g: php|asp|aspx|ts|tsx|jsx) should be removed in production.',
     status: StrategyRunnerOutputStatusEnum.Critical,
   },
+  {
+    pattern: /\.Dockerfile$/i,
+    type: FileTypeEnum.File,
+    description: 'Any dockerfiles should be removed in production.',
+    status: StrategyRunnerOutputStatusEnum.Critical,
+  },
 ];
 
 export default filePatterns;

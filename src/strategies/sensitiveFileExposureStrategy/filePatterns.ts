@@ -203,6 +203,12 @@ const filePatterns: FilePatternsType = [
     description: 'Any passwd folders should be removed in production.',
     status: StrategyRunnerOutputStatusEnum.Critical,
   },
+  {
+    pattern: /\.(php|asp|aspx|ts|tsx|jsx)$/i,
+    type: FileTypeEnum.File,
+    description: 'Any source code file (e.g: php|asp|aspx|ts|tsx|jsx) should be removed in production.',
+    status: StrategyRunnerOutputStatusEnum.Critical,
+  },
 ];
 
 export default filePatterns;
